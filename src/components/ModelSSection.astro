@@ -1,0 +1,24 @@
+---
+import Section from "./Section.astro";
+
+---
+
+<Section
+  title="Model S"
+  color="black"
+  id="modelS"
+>
+  <div slot="subtitle">
+    <a href="#" class="text-black text-sm shadow-underline">Programe una consulta virtual</a>
+  </div>
+  <div slot="footer" class="gap-x-6 flex mx-auto mb-20 items-center">
+    <a class="bg-[#2D2E36] backdrop-blur py-[10px] px-[51px] text-white text-sm rounded font-medium hover:bg-neutral-200 hover:text-neutral-800 transition-colors" href="#">
+      Pedido personalizado
+    </a>
+    <a class="bg-[#D2CFD2] backdrop-blur text-neutral-700 text-sm rounded font-medium hover:bg-black hover:text-white transition-colors inline-flex justify-center items-center px-[93px] py-[10px]" href="#">
+        Saber más
+    </a>
+  </div>
+
+  <img slot="background" class="h-full object-cover w-full" src="ModelS.avif"/>
+</Section>

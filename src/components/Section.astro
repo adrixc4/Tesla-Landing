@@ -7,12 +7,8 @@ const textColor = `text-${color}`
 data-header-color={color}>
   <div class="relative z-30 h-full flex flex-col pt-[152px]">
     <header class="flex flex-col justify-center items-center">
-      <div>
         <h2 class={`${textColor} text-[40px] font-medium tracking-[-0.7px]`}>{title}</h2>
-      </div>
-      <div>
-        <slot name="subtitle" />
-      </div>
+          <slot name="subtitle" />
     </header>
     <footer class="flex flex-grow justify-end items-center flex-col text-white">
       <slot name="footer" />

@@ -1,0 +1,26 @@
+---
+import Section from "./Section.astro";
+
+---
+
+<Section
+  title="Accesorios"
+  color="black"
+  id="carga"
+>
+  <div slot="footer" class="pb-[25px] w-full">
+    <a class="border-[3px] border-[#171A20] bg-[#171A20] backdrop-blur-xl text-sm rounded font-medium px-[74px] py-[9px] hover:bg-white hover:text-black transition-colors" href="#">Comprar ahora</a>
+    <nav class="text-gray-600 text-sm w-full mt-11 text-[12px]">
+      <ul class="flex w-full flex-row justify-center items-center gap-x-3">
+        <li><a href="#">Tesla © 2023</a></li>
+        <li><a href="#">Privacidad y legal</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Seguir informado</a></li>
+        <li><a href="#">Localización de tiendas</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <img slot="background" class="h-full object-cover w-full" src="Carga.avif"/>
+</Section>
